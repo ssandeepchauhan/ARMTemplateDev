@@ -1,0 +1,43 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0", 
+   "parameters": {
+      "storageaccountname": {
+          "value": "pocsa21"
+          },
+      "vnetName": {
+          "value": "nestlepocvnet12"
+          },
+      "subnet1Name": {
+            "value": "nestlepoc12subnet1"
+          },
+       "subnet2Name": {
+            "value": "nestlepoc12subnet2"
+          },
+      "virtualMachineSize": {
+           "value": "Standard_DS1_v2"
+       }, 
+      "adminUsername": {
+           "value": "vmAdmin"
+       },
+      "adminPassword": {
+           "value": "vmPassword!123"
+       }, 
+      "virtualMachineName": {
+           "value": "nestlevm12"
+       },
+      "dnsLabelPrefix": {
+           "value": "nestledns12"
+       },
+      "windowsOSVersion": {
+           "value": "2016-Datacenter"
+       },
+      "publicIPAddressName": {
+           "value": "nestlePubIP12"
+       },
+       "nicName": {
+           "value": "mynestleVMNic12"
+       }
+  }
+
+}
