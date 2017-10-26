@@ -4,10 +4,10 @@
     "parameters": {
       "vaultName":{
         
-        "value":"linkedrsv"
+        "value":"recoveryservice1"
       },
       "virtualMachineName":{
-        "value":"linkednestlevm"
+        "value":"nestlevm12"
       }
     },
     "variables": {
