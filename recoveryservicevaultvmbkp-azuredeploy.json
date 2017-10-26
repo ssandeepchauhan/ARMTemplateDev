@@ -3,12 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "vaultName":{
-        "type" : "string",
-        "value":"recoveryservice1"
+        "type" : "string"
       },
       "virtualMachineName":{
-           "type" : "string",
-        "value":"nestlevm12"
+           "type" : "string"
       }
     },
     "variables": {
