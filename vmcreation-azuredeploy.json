@@ -121,7 +121,8 @@
       "location": "[resourceGroup().location]",
       "dependsOn": [
                 "[variables('nic1')]",
-                "[variables('nic2')]"
+                "[variables('nic2')]",
+                "[variables('publicIPAddressName')]"
         ],
       "properties": {
         "hardwareProfile": {
