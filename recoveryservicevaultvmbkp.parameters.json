@@ -2,9 +2,9 @@
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {"vaultName":{
-        "value":"linkedrsv"
+        "value":"recoveryservice1"
       },
       "virtualMachineName":{
-        "value":"linkednestlevm"
+        "value":"nestleVM12"
       }}
 }
